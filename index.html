@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paris - A Cidade do Amor</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('paris-background.jpg');
+            background-size: cover;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            padding: 10px 20px;
+            text-align: left;
+            position: relative;
+            border-bottom: 1px solid #ccc; 
+        }
+        #paris-logo {
+            width: 35px;
+            height: 35px;
+            margin-right: 10px;
+            margin-left: 70px; 
+            vertical-align: middle;
+        }
+        h1 {
+            font-size: 1em;
+            margin: 0;
+            color: #000000;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .nav-items {
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .nav-items li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        .nav-items li a {
+            color: #000; /* Mudando a cor padrão para preto */
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .nav-items li a:hover {
+            color: black; /* Mudando a cor para laranja ao passar o mouse */
+            text-decoration: underline; /* Adicionando sublinhado ao passar o mouse */
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+            position: relative;
+        }
+        .section p {
+            font-size: 1.1em;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 200px;
+            height: 150px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+        footer {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            color: #fff;
+        }
+        footer p {
+            margin: 0;
+        }
+        .description {
+            font-size: 1.2em;
+            color: #555;
+        }
+        .main-text {
+            font-size: 2em;
+            font-weight: bold;
+            color: #333;
+        }
+        .topic-image {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            width: 40%; /* Ajuste a largura conforme necessário */
+            border-radius: 0 10px 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="parislogo.png" alt="Paris Logo" id="paris-logo">
+    <h1>Paris Charme</h1>
+    <ul class="nav-items">
+        <li><a href="#atracoes">Atrações</a></li>
+        <li><a href="#gastronomia">Gastronomia</a></li>
+        <li><a href="#faq">Perguntas Frequentes</a></li>
+    </ul>
+</header>
+
+<div class="container">
+    <h1 class="main-text">Um pouco mais de Paris</h1>
+    <p class="description">Sua jornada começa aqui. A beleza, o romance e o esplendor da cidade do amor esperam por ti.</p>
+</div>
+
+<div class="container">
+    <h2 class="section" id="atracoes">Atrações</h2>
+    <div class="gallery">
+        <img src="atracoes1.jpeg" alt="Atração 1">
+        <img src="transferir.jpeg" alt="Atração 2">
+        <img src="images.jpeg" alt="Atração 3">
+    </div>
+</div>
+
+<div class="container">
+    <h2 class="section" id="historia">História</h2>
+    <p>Paris possui uma rica história que remonta a séculos. Desde os tempos romanos até os dias atuais, cada esquina conta uma história.</p>
+</div>
+
+<div class="container">
+    <h2 class="section" id="gastronomia">Gastronomia Parisiense</h2>
+    <p>Paris é conhecida por sua alta cozinha e deliciosa comida de rua. Não deixe de experimentar os vinhos finos da região!</p>
+</div>
+
+<div class="container">
+    <h2 class="section" id="faq">Perguntas Frequentes</h2>
+    <h3>Como me locomover em Paris?</h3>
+    <p>Paris possui um excelente sistema de transporte público, incluindo metrô, ônibus e trens suburbanos.</p>
+    <h3>O que não posso perder em Paris?</h3>
+    <p>Alguns pontos turísticos imperdíveis incluem a Torre Eiffel, o Museu do Louvre e a Catedral de Notre-Dame.</p>
+    <h3>Qual é a melhor época para visitar Paris?</h3>
+    <p>A primavera e o outono são geralmente considerados os melhores momentos para visitar Paris, quando o clima é mais ameno e as multidões são menores.</p>
+    <h3>Há descontos para estudantes?</h3>
+    <p>Sim, muitas atrações oferecem descontos para estudantes. Certifique-se de trazer sua identificação estudantil.</p>
+</div>
+
+<footer>
+    <p>&copy; 2024 Paris - A Cidade do Amor</p>
+</footer>
+
+</body>
+</html>
